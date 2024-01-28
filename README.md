@@ -22,11 +22,12 @@ Qualitative visualizations of segmentation results:
 
 # Installing Dependencies
 Dependencies can be installed using:
+附带mmcv的安装教程:https://mmcv.readthedocs.io/zh-cn/latest/get_started/installation.html
 ``` bash
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
+# 这里的torch要和mmcv版本对应
 pip install -r requirements.txt
-pip install -U openmim
-mim install mmcv==1.4.7
-pip install mmcv-full==1.4.7 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.9/index.html
 ```
 
 # Datasets
